@@ -13,6 +13,7 @@ function App() {
     <ThemeContext.Provider value={{ theme: theme, setTheme: setTheme }}>
       <BrowserRouter>
         <Routes>
+          
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
